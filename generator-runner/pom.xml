@@ -209,7 +209,6 @@
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
-			</plugins>
 			<plugin>
 				    <groupId>com.spotify</groupId>
 				    <artifactId>dockerfile-maven-plugin</artifactId>
@@ -248,8 +247,8 @@
 						    <http_proxy>${env.http_proxy}</http_proxy>
 					      </buildArgs>
 				     </configuration>
-
 				</plugin>
+			</plugins>
 		</pluginManagement>
 		<plugins>
 			<plugin>
